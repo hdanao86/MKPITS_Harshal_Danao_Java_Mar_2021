@@ -1,13 +1,19 @@
 #include<stdio.h>
+calculatefactorial(int num)
+{
+	int fact=1;
+	do
+	{
+		fact=fact*num;
+		num--;
+	}
+	while(num!=0);
+}
 int main()
 {
-	int num,fact=1;
-	int cnt;
-	printf("enter number = ");
+	int num,res;
+	printf("enter number");
 	scanf("%d",&num);
-	for(cnt=num;cnt>0;cnt--)
-	{
-		fact = fact * cnt;
-	}
-	printf("\n factorial = %d",fact);
+	res=calculatefactorial(num);
+	printf("\nfactorial of %d is : %d",num,res);
 }

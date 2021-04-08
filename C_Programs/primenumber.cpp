@@ -1,13 +1,8 @@
-//use of break statement inside a loop
-
-// wap to accept a number and print whether it is a prime no. or not.
 #include<stdio.h>
-int main()
+void checkprimeno (int num)
 {
-	int num,cnt=2,rem=0;
-	printf("enter number");
-	scanf("%d",&num);
-	while(cnt<num)
+	int cnt=2,rem;
+	while (cnt<num)
 	{
 		rem=num%cnt;
 		if(rem==0)
@@ -18,10 +13,17 @@ int main()
 	}
 	if(cnt==num)
 	{
-		printf("\n %d number is prime no.",num);
+		printf("\n%d is a prime no.",num);
 	}
 	else
 	{
-		printf("\n %d number is not prime no.",num);
+		printf("\n%d is not a prime no.",num);
 	}
+}
+int main()
+{
+	int num;
+	printf("enter number ");
+	scanf("%d",&num);
+	checkprimeno(num);
 }
