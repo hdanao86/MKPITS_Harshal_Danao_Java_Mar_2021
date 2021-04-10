@@ -1,29 +1,20 @@
+// Write a C program to determine whether a given number is prime or not. 
 #include<stdio.h>
-void checkprimeno (int num)
-{
-	int cnt=2,rem;
-	while (cnt<num)
-	{
-		rem=num%cnt;
-		if(rem==0)
-		{
-			break;
-		}
-		cnt++;
-	}
-	if(cnt==num)
-	{
-		printf("\n%d is a prime no.",num);
-	}
-	else
-	{
-		printf("\n%d is not a prime no.",num);
-	}
-}
 int main()
 {
-	int num;
-	printf("enter number ");
+	int num=2,cnt,rem;
+	printf("\n enter any number :");
 	scanf("%d",&num);
-	checkprimeno(num);
+	for(cnt=1;cnt<=num;cnt++)
+	{
+		rem=cnt%num;
+		if(rem==0)
+		{
+			printf("\n%d : is an prime no. ",cnt);
+		}
+		else 
+		{
+			printf("%d is no prime no.",cnt);
+		}
+	}
 }
