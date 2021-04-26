@@ -763,17 +763,42 @@ If a class implements multiple interfaces, or an interface extends multiple inte
 8-Since Java 8, we can have method body in interface. But we need to make it default method. Let's see an example:
 
 
+26 april(instanceof operator and downcasting)
 
+1-Let's see the simple example of instance operator where it tests the current class.
 
+2-An object of subclass type is also a type of parent class. For example, if Dog extends Animal then object of Dog can be referred by either Dog or Animal class.
+Another example of java instanceof operator
 
+3-instanceof in java with a variable that have null value
 
+4-Let's see the example, where downcasting is possible by instanceof operator.
 
+5-Downcasting without the use of java instanceof
+Downcasting can also be performed without the use of instanceof operator as displayed in the following example:
 
+6-Let's take closer look at this, actual object that is referred by a, is an object of Dog class. So if we downcast it, it is fine. But what will happen if we write:
 
+7-Let's see the real use of instanceof keyword by the example given below.
 
+8-1- example of instanceof operator
+2- example of instanceof operator with base class
+3  with null value
 
+9-downcasting with instance of operator
 
+10-example of realtime downcasting example
 
+11-downcasting example with accepting actype from the user 
+
+(pacakge)
+
+1-The package keyword is used to create a package in java.
+
+2-creating a package
+
+3-create a example to access file from another package .
+do other example from the theory file
 
 
 
