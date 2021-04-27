@@ -4,23 +4,37 @@ core basic java questions are below :-
 25 - march(if and  else if)
 
 1- wap to accept a number and display the message  "number is even" if remainder of a number is 0 if divided by 2
-2-if else 
- wap to accept a number and display the message  "number is even" if remainder of a number is 0 if divided by 2 else print the message "number is odd"
+
+2-if else wap to accept a number and display the message  "number is even" if remainder of a number is 0 if divided by 2 else print the message "number is odd"
+
 3- wap to accept 3 subject marks and calculate total , percentage and grade (using if else if)
+
 4- NESTED IF
 WAP TO ACCEPT NUMOFYEARSWITHUS AND BIZDONE WITH US AND DISPLAY MSG "CLASSIFIED AS MVS" IF NUMOFYEARSWITHUS IS GREATER THAN 10 YEARS AND BIZDONE IS MORE THAN 5000000 OTHERWISE DISPLAY MSG "LITTE MORE EFFORT IS REQUIRED"
+
 SWITCH STATEMENTS
+
 5- WAP TO ACCEPT A DAY NUMBER (BETWEEN 1 AND 7 ) AND DISPLAY THE DAYNAME USING SWITCH STATEMENT AND IF STATEMENT
+
 6 -WAP TO ACCEPT A CHARACTER FROM THE USER AND PRINT WHETHER IT IS VOWEL OR NOT.
 USING SWITCH CASE.
+
 7 WAP TO ACCEPT GRADE (E OR M ) AND EXP AND  CALCULATE SALARY.
+
 8 - ABOVE PROGRAM USING SWITCH INSIDE SWITCH
+
 1- wap to accept 2 numbers from the user and display the greater number.(if else)
+
 2- wap to accept 3 numbers from the user and display the greater numbers(if elseif ...)
+
 3- wap to accept 3 numbers from the user and display the smallest no.
+
 4- wap to accept age from the user and display wheter he is eligible to vote or not.
+
 5- wap to accept age from the user and display whether he is young, middleaged or old.(if elseif )
+
 6- 6 -WAP TO ACCEPT A CHARACTER FROM THE USER AND PRINT WHETHER IT IS VOWEL OR NOT USING IF ELSE IF.
+
 7 - WAP TO ACCEPT DAYNO AND PRINT DAYNAME USING IF ELSE IF.
 
 
@@ -34,32 +48,41 @@ USING SWITCH CASE.
 26- march (while and do while)
 
 1- wap to print 'mkpits' 5 times using while loop.
+
 2- wap to print no from 1 to 10 using while loop
+
 3 -wap to print no from 10 to 1 using while loop
+
 4 - wap to print no. from 10 to 20 using while loop
+
 5 - wap to print no. from 50 to 40 using while loop.
+
 6 -wap to accept a no. from the user and print the factorial of that number.
+
 7 -wap to accept 5 subject marks from the user and calculate total using while loop.
+
 8 wap to accept 5 subject marks using while loop calculate total, per, and grade.
+
 9 wap to accept age of 5 student calculate and display the average age using while loop
+
 10 wap to accept a number and exit if user entered a number 5 using do while loop.
+
 11 - WAP TO PRINT NO . FROM 1 TO 10 USING DO WHILE LOOP.
+
 12 - WAP TO PRINT NO. FROM 50 TO 30 USING DO WHILE LOOP
+
 13 - WAP TO ACCEPT A NUMBER AND PRINT FACTORAIL OF A NUMBER USING DO WHILE LOOP.
+
 14 WAP TO ACCEPT SALARY OF 5 EMPLOYEES AND DISPLAY THE TOTAL SALARY USING DO WHILE LOOP.
+
 15 WAP ACCEPT A NUMBER AND PRINT FROM 1 TO THAT NUMBER USING DO WHILE LOOP.
+
 16 - WAP TO ACCEPT A NUMBER AND PRINT FACTORAIL OF A NUMBER AND REPEAT ASKING A NUMBER till USER PRESSES 'y' WHEN THE PROGRAM ASK "DO YOU WANT TO CONTINUE"  ;
 
 (if else if)
 
 17 - WAP TO ACCEPT 2 NO. AND OPERATOR (+, - , * \ ) FROM THE USER AND PRINT THE RESULT
 (USE IF ELSE IF)
-
-
-
-
-
-
 
 
 
@@ -801,27 +824,41 @@ Downcasting can also be performed without the use of instanceof operator as disp
 do other example from the theory file
 
 
+27 april(access modifiers)
 
+1-: Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
 
+2-: Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
 
+3-:  Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
 
+4-If you make any class constructor private, you cannot create the instance of that class from outside the class. For example:
 
+5-In the above example, the scope of class A and its method msg() is default so it cannot be accessed from outside the package.
 
+6-Example of public access modifier
 
+7-If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
 
+8-- example of private access modifier
 
+9-example of setter and getter method
 
+(encapsulation)
 
+1-Let's see the simple example of encapsulation that has only one field with its setter and getter methods.
 
+2-Let's see another example of encapsulation that has only four fields with its setter and getter methods.
 
+3-example of setter and getter method
 
+(object class)
 
+1-//A Java class to test the encapsulated class Account.\
 
+(object cloning)
 
-
-
-
-
+1-Let's see the simple example of object cloning
 
 
 
