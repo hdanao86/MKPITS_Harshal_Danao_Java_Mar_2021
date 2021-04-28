@@ -861,10 +861,22 @@ do other example from the theory file
 1-Let's see the simple example of object cloning
 
 
+28 -april(string)
 
+1-In Java, string is basically an object that represents sequence of char values. An array of characters works same as Java string. For example:
 
+2-Java String literal is created by using double quotes. For Example:
 
+3-The java.lang.String class provides many useful methods to perform operations on sequence of char values.
 
+(string buffer and string builder)
+
+1-A string that can be modified or changed is known as mutable string. StringBuffer and StringBuilder classes are used for creating mutable string.
+1) StringBuffer append() method
+
+2) StringBuffer insert() method
+
+Let's see the examples of different methods of StringBuilder class.
 
 
 
