@@ -879,6 +879,157 @@ do other example from the theory file
 Let's see the examples of different methods of StringBuilder class.
 
 
+29 -april(String tokenizer)
+
+1-Let's see the simple example of StringTokenizer class that tokenizes a string "my name is khan" on the basis of whitespace.
+
+2-Example of nextToken(String delim) method of StringTokenizer class
+
+(exception handling)
+
+
+1-Let's see an example of Java Exception Handling where we using a try-catch statement to handle the exception.
+
+2-In the above example, 100/0 raises an ArithmeticException which is handled by a try-catch block.
+Common Scenarios of Java Exceptions
+
+3-A scenario where NullPointerException occurs
+If we have a null value in any variable, performing any operation on the variable throws a NullPointerException.
+
+4-A scenario where NumberFormatException occurs
+The wrong formatting of any value may occur NumberFormatException. Suppose I have a string variable that has characters, converting this variable into digit will occur NumberFormatException.
+
+5-A scenario where ArrayIndexOutOfBoundsException occurs
+
+If you are inserting any value in the wrong index, it would result in ArrayIndexOutOfBoundsException as shown below:
+
+(exception handling with methid oveerding)
+
+1-Rule: If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception.
+
+2-If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but can declare unchecked exception.
+
+3-Rule: If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+Example in case subclass overridden method declares parent exception
+
+2-Example in case subclass overridden method declares same exception
+
+3-Example in case subclass overridden method declares subclass exception
+
+4-Example in case subclass overridden method declares no exception
+
+(try and catch)
+
+1-Let's try to understand the problem if we don't use a try-catch block.
+Example 1
+
+2-Let's see the solution of the above problem by a java try-catch block.
+Example 2
+
+3-Example 3
+In this example, we also kept the code in a try block that will not throw an exception.
+
+4-Example 4
+Here, we handle the exception using the parent class exception.
+
+5-Example 5
+Let's see an example to print a custom message on exception.
+
+Example 6
+Let's see an example to resolve the exception in a catch block.
+
+7-In this example, along with try block, we also enclose exception code in a catch block.
+
+8-In this example, we handle the generated exception (Arithmetic Exception) with a different type of exception class (ArrayIndexOutOfBoundsException).
+
+9-Let's see an example to handle another unchecked exception.
+
+10-Let's see an example to handle checked exception.
+
+(nested try)
+
+1-Let's see a simple example of java nested try block.
+
+(finally block)
+
+1-Let's see the java finally example where exception doesn't occur
+
+2-Let's see the java finally example where exception occurs and not handled.
+
+3-Let's see the java finally example where exception occurs and handled.
+
+(multiple catch)
+
+1-Let's see a simple example of java multi-catch block.
+
+
+2-In this example, try block contains two exceptions. But at a time only one exception occurs and its corresponding catch block is invoked.
+
+3-In this example, we generate NullPointerException, but didn't provide the corresponding exception type. In such case, the catch block containing the parent exception class Exception will invoked.
+
+4-Let's see an example, to handle the exception without maintaining the order of exceptions (i.e. from most specific to most general).
+
+(thrown)
+
+1-In this example, we have created the validate method that takes integer value as a parameter. If the age is less than 18, we are throwing the ArithmeticException otherwise print a message welcome to vote.
+
+(exception propogation)
+
+1-By default Unchecked Exceptions are forwarded in calling chain (propagated).
+Program of Exception Propagation
+
+2-In the above example exception occurs in m() method where it is not handled,so it is propagated to previous n() method where it is not handled, again it is propagated to p() method where exception is handled.
+
+3-Exception can be handled in any method in call stack either in main() method,p() method,n() method or m() method.
+
+4-: By default, Checked Exceptions are not forwarded in calling chain (propagated).
+Program which describes that checked exceptions are not propagated
+
+
+(throws)
+
+1-Let's see the example of java throws clause which describes that checked exceptions can be propagated by throws keyword.
+
+2-: If you are calling a method that declares an exception, you must either caught or declare the exception.
+
+3-    In case you handle the exception, the code will be executed fine whether exception occurs during the program or not.
+
+(custom exception).
+
+1-1-Let's see a simple example of java custom exception.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
