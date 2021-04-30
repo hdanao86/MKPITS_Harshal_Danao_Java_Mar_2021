@@ -998,12 +998,33 @@ Program which describes that checked exceptions are not propagated
 
 1-1-Let's see a simple example of java custom exception.
 
+30-april (member inner class)
+
+In this example, we are creating msg() method in member inner class that is accessing the private data member of outer class.
+
+In this example, we are creating msg() method in member inner class that is accessing the private data member of outer class.
+
+(anonomous inner class static and nested interface)
+
+Java anonymous inner class example using class
+
+Java anonymous inner class example using interface
+
+Java local inner class example
+
+Java static nested class example with instance method
+
+Syntax of nested interface which is declared within the class
+
+Example of nested interface which is declared within the class
+Let's see how can we define an interface inside the class and how can we access it.
+
+(Awt)
 
 
+Simple example of AWT by inheritance
 
-
-
-
+create a calculator by inheritance.
 
 
 
