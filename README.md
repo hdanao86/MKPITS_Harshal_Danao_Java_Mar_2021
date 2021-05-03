@@ -1018,17 +1018,21 @@ Example of nested interface which is declared within the class
 
 295-create a calculator by inheritance.
 
+3-may(same class,outide(within class) ,class(other class),(anonoymous class))
 
+296-create a ui with 2 button and do event handling
 
+297-create a ui to accept 2 no. and display the resut on button click.
 
+298-example of event handling in outside class
 
+298-example of event handling with anonymous class.
 
+299-another example with 2 buttons
 
+300-another example with 2 buttons
 
-
-
-
-
+302-create a calculator from frame (anonoymous class)
 
 
 
