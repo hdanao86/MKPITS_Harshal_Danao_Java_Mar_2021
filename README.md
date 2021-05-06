@@ -1072,6 +1072,39 @@ Example of nested interface which is declared within the class
 
 318-Awt examples
 
+4- may
+
+319-awt examples captal of maharshta (checkbox)
+
+320-awt example deposit and withdrawl(checkbocgrp)
+
+5-may
+
+321-awt factorial example
+
+322-awt table example
+
+323-awt prime number example
+
+324-awt radius example
+
+325-awt student marks example
+
+326-awt product example
+
+327-awt vowel example
+
+328 awt employe salary example
+
+
+
+
+
+
+
+
+
+
 
 
 
