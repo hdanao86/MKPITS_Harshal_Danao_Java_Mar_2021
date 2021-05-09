@@ -1162,7 +1162,11 @@ Example of nested interface which is declared within the class
 
 359-billing class with awt.
 
+360-adapter class demo mouse cliked and mouse dragged
 
+361-windowlistener to close window
+
+362-keyEvent with keylistener.
 
 
 
