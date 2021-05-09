@@ -1100,32 +1100,67 @@ Example of nested interface which is declared within the class
 
 329-list Java AWT List Example 
 
-330-list Java AWT List Example with ActionListener
+330-list Java AWT List Example
 
-331-scrollbar verical awt
+331-list Java AWT List Example 
 
-332-scrollbar horizontal awt
+332-list Java AWT List Example with ActionListener
 
-333-Java AWT scrollbar Example
+333-scrollbar verical awt
 
-334-Java AWT MenuItem and Menu Example
+334-scrollbar horizontal awt
 
-335-Java AWT PopupMenu Example
+335-Java AWT scrollbar Example
 
-336-Java AWT Panel Example
+336-Java AWT MenuItem and Menu Example
 
-337- Java AWT Panel Example frame with 2 panels
+337-Java AWT PopupMenu Example
 
-338-Java AWT Dialog Example
+338-Java AWT Panel Example
 
-339-Java AWT Toolkit Example
+339- Java AWT Panel Example frame with 2 panels
 
-340-Java AWT Toolkit Example: beep()
+340-Java AWT Dialog Example
 
-341-Java AWT Toolkit Example: Change TitleBar Icon
+341-Java AWT Toolkit Example
 
+342-Java AWT Toolkit Example: beep()
 
+343-Java AWT Toolkit Example: Change TitleBar Icon
 
+7-may
+
+344-register class with setter and getter
+
+345-register class with awt(combine with same package)
+
+346-shop class with setter and getter
+
+347-shop class with awt
+
+348-product class with setter and getter
+
+349-product class with awt
+
+350-supplier classwith setter and getter
+
+351-supplier class with awt
+
+352-stock class with setter and getter
+
+353-stock class with awt
+
+354-employee class with getter and setter
+
+355-employee class with awt
+
+356-customer class with setter and getter
+
+357-customer class with awt
+
+358-billing class with setter and getter
+
+359-billing class with awt.
 
 
 
