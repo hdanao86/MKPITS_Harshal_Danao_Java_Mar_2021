@@ -1168,6 +1168,261 @@ Example of nested interface which is declared within the class
 
 362-keyEvent with keylistener.
 
+8-may
+
+363-example of Adapter class
+
+364- example of Adapter window close
+
+365-key event
+
+10 may and 11 may
+
+366-Elevator program
+
+367-timer task class
+
+12 may
+
+368-shop Example of jdesktopane shop and stock.
+
+369-shop Example of jdesktopane product and supplier.
+
+370-shop Example of jdesktopane employee and order.
+
+371-shop Example of jdesktopane customer and billing.
+
+372-example of jdesktopane
+
+373-java Program to create a simple JInternalFrame
+
+374-example of with icon
+
+13 may
+
+375-Java FileOutputStream Example : write byte
+
+376-Java FileOutputStream example : write string
+
+377-awt example to write data to file
+
+378-Java FileInputStream example : read single character
+
+379-Java FileInputStream example : read all characters
+
+380-awt example
+
+381-Example of BufferedOutputStream class:
+
+381-Let's see the simple example to read data of file using BufferedInputStream:
+
+382-Java SequenceInputStream Example
+
+382-Example that reads the data from two files and writes into another file
+
+383-SequenceInputStream example that reads data using enumeration
+
+384-awt example name and emaial id example
+
+17 may
+
+385-In this example, we are writing the data in the file testout.txt using Java FileWriter class.
+
+386-In this example, we are reading the data from the text file testout.txt using Java FileReader class.
+
+387-In this example, we are simply printing integer and string value.
+
+388-Let's see the simple example of printing integer value by format specifier using printf() method of java.io.PrintStream class.
+
+389-Let's see the simple example of writing the data on a console and in a text file testout.txt using Java PrintWriter class.
+
+390-In this example, we are writing a common data to 4 files a.txt, b.txt, c.txt and d.txt.
+
+391-simultanious writing and reading data from a file
+
+392-Chararray reader xampp file.
+
+18 may
+
+391-Java Thread Example by extending Thread class
+
+392-Java Thread Example by implementing Runnable interface
+
+393-If you are not extending the Thread class,your class object would not be treated as a thread object.So you need to explicitely create Thread class object.We are passing the object of your class that implements Runnable so that your class run() method may execute.
+
+394-Example of sleep method in java
+
+395-Can we start a thread twice
+No. After starting a thread, it can never be started again. If you does so, an IllegalThreadStateException is thrown. In such case, thread will run once but for second time, it will throw exception.
+
+396-Invoking the run() method from main thread, the run() method goes onto the current call stack rather than at the beginning of a new call stack.
+
+397-MainThreadStack Problem if you direct call run() method
+
+398-Example of join() method
+
+399-As you can see in the above example,when t1 completes its task then t2 and t3 starts executing.
+Example of join(long miliseconds) method
+
+400-getName(),setName(String) and getId() method:
+public String getName()
+
+401-The currentThread() method:
+The currentThread() method returns a reference to the currently executing thread object.
+
+402-Example of naming a thread
+
+403-Example of currentThread() method
+
+404-Default priority of a thread is 5 (NORM_PRIORITY). The value of MIN_PRIORITY is 1 and the value of MAX_PRIORITY is 10.
+Example of priority of a Thread:
+
+19 may
+
+405-Simple example of Daemon thread in java
+
+406-If you want to make a user thread as Daemon, it must not be started otherwise it will throw IllegalThreadStateException.
+
+407-Let's see a simple example of java thread pool using ExecutorService and Executors.
+
+408-JavaThreadPoolExample.java
+
+409-Let's see a code to group multiple threads.
+
+410-Now we can interrupt all threads by a single line of code only.
+Thread.currentThread().getThreadGroup().interrupt();
+ThreadGroup Example
+File: ThreadGroupDemo.java
+
+411-If you have to perform single task by many threads, have only one run() method.For example:
+Program of performing single task by multiple threads
+
+412-Program of performing single task by multiple threads
+
+413-If you have to perform multiple tasks by multiple threads,have multiple run() methods.For example:
+Program of performing two tasks by two threads
+
+414-Same example as above by annonymous class that extends Thread class:
+Program of performing two tasks by two threads
+
+415-Same example as above by annonymous class that implements Runnable interface:
+Program of performing two tasks by two threads
+
+20 may
+
+416-Simple Example of garbage collection in java
+
+417-Example of garbage collection finalization nor garbage collection is guaranteed.
+
+418-In this example, there is no synchronization, so output is inconsistent. Let's see the example:
+
+419-If you declare any method as synchronized, it is known as synchronized method.
+Synchronized method is used to lock an object for any shared resource.
+
+420-example account class
+
+421-Example of synchronized method by using annonymous class
+
+422-accoutn class using anonymous class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
