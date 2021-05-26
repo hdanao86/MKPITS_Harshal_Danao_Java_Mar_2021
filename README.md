@@ -1331,7 +1331,7 @@ Synchronized method is used to lock an object for any shared resource.
 
 424-Program of synchronized block by using annonymous class
 
-425-example Program of synchronized block by using annonymous class
+425-example Program of Static synchronized block by using annonymous class
 
 426-Let's see the simple example of StringTokenizer class that tokenizes a string "my name is khan" on the basis of whitespace.
 
@@ -1344,6 +1344,11 @@ Synchronized method is used to lock an object for any shared resource.
 430-Let's see the simple example of inter thread communication.
 
 431-Example of Deadlock in java
+
+24 - may(432 to 456) totla 24 programs on arraylist and awt with swing.
+
+456-Array list programs and other ways
+
 
 
 
