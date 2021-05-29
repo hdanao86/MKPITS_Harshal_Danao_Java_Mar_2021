@@ -1345,9 +1345,14 @@ Synchronized method is used to lock an object for any shared resource.
 
 431-Example of Deadlock in java
 
-24 - may(432 to 456) totla 24 programs on arraylist and awt with swing.
+24  may(432 to 456) total 24 programs on arraylist and awt with swing.
 
 456-Array list programs and other ways
+
+25 may (456 to 483) total 27 programs on linkedlist
+
+483-Linkedlist,Hashset,LinkedHashset,differnce between arraylist and linkedlist,treeset.
+
 
 
 
