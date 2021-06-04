@@ -1353,9 +1353,41 @@ Synchronized method is used to lock an object for any shared resource.
 
 483-Linkedlist,Hashset,LinkedHashset,differnce between arraylist and linkedlist,treeset.
 
+26 may 
 
+484-Example of Arraydequeue
 
+485-Example of Book Arraydequeue 
 
+486-Example of Arraydequeue
+
+487-Hashmap Example Book
+
+488-Example of Hashmap
+
+489-Example of Hashmap
+
+490-Example of Hashmap
+
+491-Example of Hashmap
+
+492-Example of Hashmap
+
+493-map Example
+
+494-map Example
+
+495-map Example
+
+496-map Example
+
+497-map Example
+
+498-map Example
+
+499-Prioryqueue Book Example
+
+500-Example of Priorityqueue
 
 
 
