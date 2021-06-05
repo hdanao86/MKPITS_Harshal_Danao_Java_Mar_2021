@@ -1419,7 +1419,7 @@ Synchronized method is used to lock an object for any shared resource.
 
 514-Example of Hashtable
 
-515-Comaprable Example in java 
+515-Comaprable Example in java .
 
 
 
