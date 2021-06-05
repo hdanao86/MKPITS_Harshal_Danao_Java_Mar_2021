@@ -1421,6 +1421,45 @@ Synchronized method is used to lock an object for any shared resource.
 
 515-Comaprable Example in java .
 
+28 may
+
+516-Example of networking
+
+517-Example of networking
+
+518-Example of Awt networkingwith timer class (chating)
+
+31 may
+
+519-Example of url
+
+520-Example of url
+
+521-Urlconnectionclass example
+
+522-Example of Inetaddress
+
+523-Httpurlconnection class Example
+
+524-Datagram packet send and receive by datagramsocket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
