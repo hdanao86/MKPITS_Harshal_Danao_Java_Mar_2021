@@ -1389,6 +1389,65 @@ Synchronized method is used to lock an object for any shared resource.
 
 500-Example of Priorityqueue
 
+27 may 
+
+501-Example of linkedhashmap book Example
+
+502-Example of linkedhashmap
+
+503-Example of linkedhashmap
+
+504-Example of linkedhashmap
+
+505-Example of treemap Book Example
+
+506-Example of treemap
+
+507-Example of treemap
+
+508-Example of treemap
+
+509-treemap navigaable Example
+
+510-Example of Hashtable Book example
+
+511-Example of Hashtable 
+
+512-Example of Hashtable 
+
+513-Example of Hashtable 
+
+514-Example of Hashtable
+
+515-Comaprable Example in java 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
