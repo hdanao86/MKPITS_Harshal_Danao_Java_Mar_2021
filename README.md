@@ -1483,6 +1483,20 @@ Synchronized method is used to lock an object for any shared resource.
 
 540 Example of html
 
+9 june to 15 june (whole week)
+
+541 webpage design
+ 
+542-  mkpits webpage design
+
+543- responsive website design
+
+544-webpage 2
+
+545-loginform
+
+546-registration form.
+
 
 
 
