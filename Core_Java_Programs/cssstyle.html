@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style >
+
+div  {
+	background: rgb(0, 128, 0);
+}
+div.first {
+	background: rgba(0, 128, 0, 0.1);
+}
+div.second {
+	background: rgba(0, 128, 0, 0.3);
+}
+div.third {
+	background: rgba(0, 128, 0, 0.6);
+}
+body {
+	background-image: url("searchicon");
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-right: 200px;
+	background-attachment: scroll;
+}
+
+p.dotted {
+	border: 1px solid yellow;
+	outline-color: invert;
+	outline-style: solid;
+	background: lightblue;
+	outline-offset: 15px;
+	height: 50px;
+	width: 100%;
+	vertical-align: baseline;
+	text-transform: capitalize;
+	text-indent: 50px;
+	word-spacing: 5px;
+	text-shadow: 2px 2px  5px red;
+	font-variant: small-caps;
+	font-family: "sofia",sans-serif;
+	
+
+	
+}
+a:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	border: 2px solid green;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover, a:active {
+	background-color: red;
+	color: white;
+}
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  
+} 
+
+
+
+</style>
+</head>
+<body>
+
+<div class="sticky">This div element has position: relative;</div>
+<img src="w3css.gif" width="100" height="120">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+  
+
+<i class="material-icons">cloud</i>
+<i class="material-icons">favorite</i>
+<i class="material-icons">attachment</i>
+<i class="material-icons">computer</i>
+<i class="material-icons">traffic</i>
+<br><br>
+
+
+	<p class="dotted font-effect-fire"> This is a paragraph.</p>
+	<p><b><a href="http://google.com" target="_blank">This is a link</a> </b></p>
+
+	<div class="first">
+		<h1>opacity 10%</h1>
+	</div>
+
+	<div class="second">
+		<h1>opacity 30%</h1>
+	</div>
+
+	<div class="third">
+		<h1>opacity 60%</h1>
+	</div>
+
+	<div>
+		<h1>opacity 1 (default)</h1>
+	</div>
+</body>
+
+</html>
